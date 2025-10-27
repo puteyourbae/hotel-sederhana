@@ -33,7 +33,7 @@ public class Pemesanan {
 
     /**
      * Method Perhitungan: Menghitung total biaya.
-     */
+     *
     public double hitungTotalBiaya() {
         // Logika perhitungan yang ringkas dan terenkapsulasi
         return kamar.getHargaPerMalam() * jumlahMalam;

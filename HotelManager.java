@@ -67,7 +67,7 @@ public class HotelManager {
 
         Pemesanan p = pemesananOpt.get();
         double total = p.hitungTotalBiaya();
-
+s
         // Menggunakan Konstanta NAMA_HOTEL
         System.out.println("\n" + "=".repeat(40));
         System.out.println("       NOTA PEMBAYARAN " + NAMA_HOTEL.toUpperCase());
@@ -81,5 +81,6 @@ public class HotelManager {
         System.out.println("-".repeat(40));
         System.out.printf("%-15s: Rp %,.0f\n", "TOTAL", total);
         System.out.println("=".repeat(40));
+
     }
 }
